@@ -1,6 +1,6 @@
 # Toolbox test node backend
 
-This project was developed with node 16
+This project was developed with node 14
 ## Postman collection
 
 At the root of the source code
