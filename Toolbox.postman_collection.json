@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "8ca56dd1-0c45-4b4d-8592-5a5ccc15cdd6",
+		"name": "Toolbox",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2860052",
+		"_collection_link": "https://solar-station-695425.postman.co/workspace/Itsos-~2f815b64-7691-4cf8-8eac-2ca2ebc03af3/collection/2860052-8ca56dd1-0c45-4b4d-8592-5a5ccc15cdd6?action=share&source=collection_link&creator=2860052"
+	},
+	"item": [
+		{
+			"name": "localhost:7085/files/data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:7085/files/data",
+					"host": [
+						"localhost"
+					],
+					"port": "7085",
+					"path": [
+						"files",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:7085/files/list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:7085/files/list",
+					"host": [
+						"localhost"
+					],
+					"port": "7085",
+					"path": [
+						"files",
+						"list"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
