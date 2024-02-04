@@ -3,7 +3,7 @@
 This project was developed with node 16
 ## Postman collection
 
-In the root of the source code
+At the root of the source code
 
 ## Available Scripts
 
