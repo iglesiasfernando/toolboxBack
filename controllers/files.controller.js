@@ -2,6 +2,7 @@ const filesService = require('../services/files.service')
 
 
 module.exports.get = get;
+module.exports.getList = getList;
 module.exports.getFileObject = getFileObject;
 
 
@@ -56,6 +57,15 @@ async function get(req,res,next){
             }
         }
         res.json(responseArray)
+    }
+    catch(exception){
+        res.status(500).json({ mensaje: "Error inesperado",respuesta: exception.message || exception.stack });
+    }
+}
+async function getList(req,res,next){
+    try{
+        const responseFiles = await filesService.getFiles();
+        res.json(responseFiles)
     }
     catch(exception){
         res.status(500).json({ mensaje: "Error inesperado",respuesta: exception.message || exception.stack });
