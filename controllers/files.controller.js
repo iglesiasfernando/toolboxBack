@@ -48,6 +48,13 @@ async function get(req,res,next){
     try{
         const responseFiles = await filesService.getFiles();
         let responseArray = []
+
+        let fileSearch = req.query.fileName
+
+        if(fileSearch){
+            responseFiles.files = responseFiles.files.filter(file => file == fileSearch)
+        }
+
         for (let file of responseFiles.files) {
             const responseGetFile = await filesService.getFile(file);
             if(responseGetFile){
