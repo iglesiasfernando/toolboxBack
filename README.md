@@ -1,6 +1,10 @@
 # Toolbox test node backend
 
 This project was developed with node 16
+## Postman collection
+
+At the root of the source code
+
 ## Available Scripts
 
 In the project directory, you can run:
