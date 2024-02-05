@@ -26,3 +26,7 @@ Returns the information as needed
 ###  /files/list
 
 Returns the file names full list
+
+## Docker info
+
+### https://github.com/iglesiasfernando/toolboxBack/edit/master/README.Docker.md
